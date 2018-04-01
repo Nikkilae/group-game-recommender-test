@@ -1,0 +1,16 @@
+{
+    "name": "group-game-recommender-test",
+    "scripts": {
+        "build": "npm install && cd ./server && npm install && cd ../client && npm install && npm run-script build",
+        "start": "cd ./server && npm start",
+        "build-start": "npm run-script build && npm run-script start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nikkilae/group-game-recommender-test.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Nikkilae/group-game-recommender-test/issues"
+    },
+    "homepage": "https://github.com/Nikkilae/group-game-recommender-test#readme"
+}
